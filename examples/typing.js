@@ -14,6 +14,7 @@ demo.define("dynamic_typing", function(){
 demo.define("duck_typing", function(){
   var customObject = {};
   customObject.toString = function() { return "i'm a custom object"; };
+  // sys.puts doesn't care what you hand it, as long as it can behave like a string
   sys.puts(customObject);
 });
 
