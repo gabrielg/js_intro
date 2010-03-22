@@ -7,6 +7,7 @@
 * Object oriented
 * Functional
 * Owes credit to languages like Self, Lisp
+* Uses prototypal inheritance versus classical inheritance
 
 ## Run-through
 
@@ -17,6 +18,23 @@
 * functions
 * exceptions
 * objects
+* prototypal inheritance
+* classical inheritance
+
+## Examples
+
+* observer pattern with objects
+* observer pattern with functions
+* visitor pattern with objects
+* visitor pattern with functions
+* singleton pattern
+* node.js http server
+
+## Implementations
+
+* spidermonkey
+* v8 / node.js
+* rhino
 
 ## See also
 
