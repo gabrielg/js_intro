@@ -4,6 +4,7 @@ var demo = require("../lib/demo");
 demo.define("named", function(){
   function greet() {
     sys.puts("hi folks");
+    return true; // use return as in most other languages to return a value
   }
   
   greet();

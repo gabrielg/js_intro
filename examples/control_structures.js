@@ -26,6 +26,11 @@ demo.define("switch", function(answer){
   }
 });
 
+demo.define("ternary", function(answer){
+  var response = (answer == "neat") ? "good job" : "make sense";
+  sys.puts(response);
+});
+
 demo.define("loops", function() {
   var count = 0;
   // Your standard while loop is available
