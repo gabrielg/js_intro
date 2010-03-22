@@ -36,6 +36,11 @@
 * v8 / node.js
 * rhino
 
+## Testing frameworks
+
+* riot.js - http://github.com/alexyoung/riotjs
+* qunit - http://docs.jquery.com/QUnit
+
 ## See also
 
 http://javascript.crockford.com/
