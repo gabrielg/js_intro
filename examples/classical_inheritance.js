@@ -1,5 +1,4 @@
 var sys = require("sys");
-var demo = require("../lib/demo");
 process.mixin(GLOBAL, require("../vendor/riot"), require("../lib/class"));
 
 Point = Class.create({
