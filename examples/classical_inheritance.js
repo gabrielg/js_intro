@@ -1,7 +1,8 @@
 var sys = require("sys");
-process.mixin(GLOBAL, require("../vendor/riot"), require("../lib/class"));
+var ck = require("../lib/class");
+var rl = require("../vendor/riot");
 
-Point = Class.create({
+Point = ck.Class.create({
   x: 0,
   y: 0,
   
@@ -23,7 +24,7 @@ Point = Class.create({
   }
 });
 
-Point3D = Class.create(Point, {
+Point3D = ck.Class.create(Point, {
   z: 0,
   
   initialize: function(x, y, z) {
@@ -42,7 +43,7 @@ Point3D = Class.create(Point, {
 });
 
 
-Riot.run(function() {
+rl.Riot.run(function() {
   context('basic 2D Point functionality', function() {
     given('a point', function() {
       var point = null;
