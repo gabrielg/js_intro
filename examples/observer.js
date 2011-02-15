@@ -1,5 +1,7 @@
 var sys = require("sys");
-process.mixin(GLOBAL, require("../vendor/riot"), require("../lib/object_ext"));
+var rl = require("../vendor/riot");
+var objExt = require("../lib/object_ext");
+
 
 Observable = {
   addObserver: function(observer) {
@@ -17,7 +19,7 @@ Observable = {
   }
 };
 
-Riot.run(function() {
+rl.Riot.run(function() {
   context('observing with a function based observer', function() {
     var subject = {name: "something observable", fire: function() { this.notify(this.name); }};
     Object.extend(Observable, subject);

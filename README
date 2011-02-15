@@ -30,8 +30,8 @@
 
 ## Implementations
 
-* spidermonkey
 * v8 / node.js
+* spidermonkey
 * rhino
 
 ## Testing frameworks
